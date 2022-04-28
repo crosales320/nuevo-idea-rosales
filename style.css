@@ -40,6 +40,16 @@ h1 {
 
 .imagen-portada {
     padding: 50px 500px 200px 500px;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes animacion {
+    0% {
+        width: 30px;
+    }
 }
 
 nav {
